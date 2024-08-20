@@ -1,5 +1,10 @@
 package com.acme.shared.domain.model.valueobjects;
 
+/**
+ * Address class
+ * @version 1.0
+ * @author Johan Principe Godoy u202014511
+ */
 public class Address {
     private final String street;
     private final String number;
