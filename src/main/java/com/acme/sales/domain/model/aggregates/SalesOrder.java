@@ -65,6 +65,10 @@ public class SalesOrder {
         clearItems();
     }
 
+    public String getShippingAddressAsString() {
+        return shippingAddress.getAddressAsString();
+    }
+
     private UUID getInternalId() { return internalId; }
 
     private void verifyIfReadyForDispatch() {
